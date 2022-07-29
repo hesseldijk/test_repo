@@ -16,6 +16,9 @@ Duration=19869
 
 with SLEEP
 Duration=20058
+Duration=20058
+Duration=20058
+Duration=20058
 
 with status request:
 Duration=20058

@@ -16,6 +16,8 @@
 Scheduler runner;
 // Callback methods prototypes
 void t1Callback();
+void t1Callback();
+void t1Callback();
 void t1OnDisable();
 void t2Callback();
 
@@ -29,9 +31,9 @@ Task t2(5 * TASK_SECOND, TASK_FOREVER, &t2Callback, &runner, true);  //adding ta
 
 
 void t1Callback() {
-  unsigned long t = micros();
-  Serial.print("t1: ");
-  Serial.println(t);
+  // unsigned long t = micros();
+  // Serial.print("t1: ");
+  // Serial.println(t);
 }
 
 void t1OnDisable() {
